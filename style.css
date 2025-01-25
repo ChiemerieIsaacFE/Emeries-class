@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+body{
+    background-color: #f9f9f9;
+    color: #000;
+}
+header{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+}
+main{
+    height: 100vh;
+    padding: 0 20px;
+    display: grid;
+    place-items: center;
+}
+form{
+    max-width: 680px;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+input, select{
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 1rem;
+    font-size: 500;
+    color: #000;
+}
+input:focus, select:focus, textarea:focus{
+    outline: 1px #121212 solid;
+    outline-offset: px;
+}
+textarea{
+    padding: 10px;
+    font-size: 1rem;
+}
+button{
+    padding: 15px;
+    font-size: 1rem;
+    background: #121212;
+    color: #fff;
+    font-weight: 500;
+}
+footer{
+    padding: 10px 0;
+    text-align: center;
+    color: #777;
+}
